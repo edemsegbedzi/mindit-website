@@ -1,0 +1,99 @@
+.nav{
+ padding-left: 4rem;
+ padding-right: 4rem;
+ background-color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #2a0638 ;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 3rem;
+}
+#wrapper{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #featured {
+    position: absolute;
+    width: calc(100vh * (1000 / 562));    /*  video width / height  */
+    height: calc(100vw * (562 / 1000));   /*  video height / width  */
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+  }
+
+.img-big-blue {
+    width: 10rem;
+    height: 10rem;
+}
+
+.img-works {
+    width: 30rem;
+    height: 25rem;
+}
+.img-design {
+    width: 20rem;
+    height: 25rem;
+}
+
+.heading {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 2.2rem;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: start center;
+}
+
+.features {
+    padding: 1rem;
+    width: 12rem;
+    height: 7rem;
+}
+
+.impact-header {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 2.2rem;
+    padding-left: 2rem ;
+
+    color: white;
+}
+.impact-text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.8em;
+    text-align: center;
+    color: #ffc000;
+    
+}
+
+hr {
+    background-color: #ffc000;
+    height: 1px;
+    width: 2rem;
+    
+}

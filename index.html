@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Varela+Round&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Varela+Round&display=swap"
+        rel="stylesheet">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -40,22 +42,22 @@
                         <a class="nav-link" href="#work">How We Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Impact</a>
+                        <a class="nav-link" href="#impact">Impact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Story</a>
+                        <a class="nav-link" href="#story">Our Story</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Team</a>
+                        <a class="nav-link" href="#team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Donate</a>
+                        <a class="nav-link" href="#donate">Donate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Event</a>
+                        <a class="nav-link" href="#event">Event</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">contact Us</a>
+                        <a class="nav-link" href="#contact">contact Us</a>
                     </li>
 
                 </ul>
@@ -115,8 +117,8 @@
     </section>
 
     <section id="impact">
-        <div class="container" style="background-color: ghostwhite;">
-            <div>
+        <div style="background-color: ghostwhite;">
+            <div class="container">
                 <img src="assets/img/world bank logo.png" class="features">
                 <img src="assets/img/bbc logo.png" class="features">
                 <img src="assets/img/harvard logo.png" class="features">
@@ -153,18 +155,18 @@
 
         </div>
     </section>
-    <section>
+    <section id="story">
         <div class="row" style="background-color: #2a0638;">
             <div class="col-md-3">
                 <img src="assets/img/deign 2 left.png" class="img-design">
             </div>
             <div class="col-md-6">
                 <div class="row" style="display: block;">
-                    <h2 class="impact-header" style="background-color: '#ffc000';">OUR STORY</h2>
-                    <h2 class="impact-header" style="background-color: '#ffc000';">BY FOUNDER (DR. ATSU LATEY)</h2>
+                    <h2 class="story-header" style="background-color: '#ffc000';">OUR STORY</h2>
+                    <h2 class="story-header" style="background-color: '#ffc000';">BY FOUNDER (DR. ATSU LATEY)</h2>
                 </div>
                 <div class="row">
-                    <p style="color: white;">
+                    <p style="color: white;" class="story-text">
                         "The spark... after the publication of a newspopser article on the Depression in a local
                         newspaper "
                         in commenmoration of World Health day in 2017, a distressed teached called the writer for help.
@@ -182,59 +184,67 @@
                 <img src="assets/img/design 2 right.png" class="img-design">
             </div>
         </div>
-        <h2>OUR TEAM</h2>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="assets/img/Big blue.png" style="width: 10rem; height: 10rem;">
-                <h5>Dr.Atsu Latey</h5>
-                <h5>Chief Executive Officer</h5>
-            </div>
-            <div class="col-md-3">
+        <h2 id="team" class="team-header">OUR TEAM</h2>
+        <div class="row" style="padding: 3rem">
+            <div class="col-md-3 team-member">
                 <img src="assets/img/Big blue.png" style="width: 10rem; height: 10rem;">
                 <h4>Dr.Atsu Latey</h4>
                 <h5>Chief Executive Officer</h5>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 team-member">
                 <img src="assets/img/Big blue.png" style="width: 10rem; height: 10rem;">
-                <h4>Dr.Atsu Latey</h4>
-                <h5>Chief Executive Officer</h5>
+                <h4>Etse Latey</h4>
+                <h5>President</h5>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 team-member">
                 <img src="assets/img/Big blue.png" style="width: 10rem; height: 10rem;">
-                <h4>Dr.Atsu Latey</h4>
-                <h5>Chief Executive Officer</h5>
+                <h4>Edem Segbedzi</h4>
+                <h5>Lead Engineer</h5>
+            </div>
+            <div class="col-md-3 team-member">
+                <img src="assets/img/Big blue.png" style="width: 10rem; height: 10rem;">
+                <h4>Maame Esi Coleman</h4>
+                <h5>Social Media Lead</h5>
             </div>
         </div>
     </section>
     <section>
         <div class="row">
-            <div class="col-md-6">
-                <h2>THE RAFT</h2>
-                <h2>ABOUT THE RAFT</h2>
-                <p>In the context of poor funding for mental healthcare, which is punctuated by 
-                    the inacessibility and cost nature of care, it is imperative that cost-efficient soluntions are developed to 
-                    address the burgeoning needs of mental healthcare in Ghana.
-                    This is one of the main aims of MindIT Ghana, as we contribute 
-                    our skills pro bono to provide affordable and accesible mental healthcare for Ghanaians.
-                </p>
+            <div class="col-md-6" style="background-color: #2a0638;">
+                <div class="container our-story">
+                    <h2 style="color: #ffc000; font-family:  'Varela Round';">THE RAFT</h2>
+                    <h2 style="color: #ffc000; font-family:  'Lato'; font-weight: 300;">ABOUT THE RAFT</h2>
+                    <p style="padding-top: 2rem; color: whitesmoke; font-family : 'Lato'">In the context of poor funding
+                        for mental healthcare, which is punctuated by
+                        the inacessibility and cost nature of care, it is imperative that cost-efficient soluntions are
+                        developed to
+                        address the burgeoning needs of mental healthcare in Ghana.
+                        This is one of the main aims of MindIT Ghana, as we contribute
+                        our skills pro bono to provide affordable and accesible mental healthcare for Ghanaians.
+                    </p>
+                </div>
 
             </div>
-            <div class="col-md-6">
-                <h2>WELCOME ABOARD</h2>
-                <h2>Wanna join us? Be our guest!</h2>
-                <p>Aboard, there's: <br>
-                -the <b>CALL CENTER DEPARTMENT</b> with call center personnel who would always 
-            love to have you join them, <br>
-        -the <b>INNOVATION HUB</b> where innovations are created to promote mental healthcare and <br>
-    -the <b>EVENTS CORNER</b> where mini events are hosted!</p>
- <br> Choose from this array where you would best fit, and we would be glad to have you on board as a volunteer or intern.
+            <div class="col-md-6" style="background-color: #ffc000">
+                <div class="container our-story">
+                    <h2 style="color: #2a0638; font-family:  'Varela Round';">WELCOME ABOARD</h2>
+                    <h2 style="color: #2a0638;  font-family:  'Lato'; font-weight: 300;">Wanna join us? Be our guest!
+                    </h2>
+                    <p style="padding-top: 2rem; color: #2a0638; font-family : 'Lato'">Aboard, there's: <br>
+                        -the <b>CALL CENTER DEPARTMENT</b> with call center personnel who would always
+                        love to have you join them, <br>
+                        -the <b>INNOVATION HUB</b> where innovations are created to promote mental healthcare and <br>
+                        -the <b>EVENTS CORNER</b> where mini events are hosted!</p>
+                    <br> Choose from this array where you would best fit, and we would be glad to have you on board as a
+                    volunteer or intern.
+                </div>
             </div>
         </div>
-        <div>
-            <h2>INTRESTED IN</h2>
-            <h2>INTERNING/HELPING IN</h2>
-            <h2>ANY OTHER CAPACITY?</h2>
-            <h5>Click here to send us a mail</h5>
+        <div class="container" style="padding: 4rem">
+            <h2 class="join-us">INTRESTED IN</h2>
+            <h2 class="join-us">INTERNING/HELPING IN</h2>
+            <h2 class="join-us">ANY OTHER CAPACITY?</h2>
+            <h5 class="join-us-link">Click here to send us a mail</h5>
         </div>
 
     </section>
@@ -245,13 +255,14 @@
             </div>
             <div class="col-md-6">
                 <div class="row" style="display: block;">
-                    <h2 class="impact-header" style="background-color: '#ffc000';">WE ARE PASSIONATE ABOUT SAVING LIVES</h2>
+                    <h2 class="impact-header" style="background-color: '#ffc000';">WE ARE PASSIONATE ABOUT SAVING LIVES!
+                    </h2>
                     <hr>
                     <h4 class="impact-text">If our goal resonates with you, <br>
-                    please makee a donation to cover some expenses. Thank you</h4>
+                        please makee a donation to cover some expenses. Thank you</h4>
                 </div>
-                <button>Donate</button>
-               
+                <!-- <input style="width: 10rem; height: 2rem;" type="button" style="background-image:url('assets/img/donate\ button.png')"/> -->
+
             </div>
             <div class="col-md-3">
                 <img src="assets/img/design 3 left.png" class="img-design">
@@ -259,34 +270,38 @@
         </div>
     </section>
 
-    <section>
-        <h2>Contact Us</h2>
-        <div class="col-md-5">
-            <h3>Leave a message</h3>
-            <input placeholder="Name"> 
-            <input placeholder="Email"> 
-            <input placeholder="Subject"> 
-            <input placeholder="Message"> 
-            <button>Send</button>
+    <section id="contact" style="background-color: whitesmoke">
+        <div class="container">
 
+            <h2 class="join-us" style="font-size: 2em; padding: 3rem;">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-5 contact-container">
+                    <h3 style="color: whitesmoke; font-family: 'Varela Round'; font-weight: 400;">LEAVE A MESSAGE</h3>
+                    <input placeholder="Name">
+                    <input placeholder="Email">
+                    <input placeholder="Subject">
+                    <textarea placeholder="Message" rows="5" cols="5"> </textarea>
+                    <button>Send</button>
+                </div>
+                <div class="col-md-5">
+                    <div class=" contact-container" style="margin-left: 4rem;">
+                        <h2>Address</h2>
+                        <h4>xxx-xxxx</h4>
+                        <h4>xxx-xxxx</h4>
+                    </div>
+                    <div class=" contact-container" style="margin-left: 4rem;">
+                        <h2>PHONE</h2>
+                        <h4>+233 270 303 535 </h4>
+                        <h4>+233 572 198 599 </h4>
+                    </div>
+                    <div class=" contact-container" style="margin-left: 4rem;">
+                        <h2>WEB & SOCIAL</h2>
+                        <h4>Mail: mindit@gmail.com</h4>
+                    </div>
+                </div>
+    
+            </div>
         </div>
-        <div class="col-md-5">
-            <div>
-                <h2>Address</h2>
-                <h4>xxx-xxxx</h4>
-                <h4>xxx-xxxx</h4>
-            </div>
-            <div>
-                <h2>PHONE</h2>
-                <h4>+233 270 303 535   </h4>
-                <h4>+233 572 198 599   </h4>
-            </div>
-            <div>
-                <h2>WEB & SOCIAL</h2>
-                <h4>Mail: mindit@gmail.com</h4>
-            </div>
-        </div>
-
     </section>
 
 </body>

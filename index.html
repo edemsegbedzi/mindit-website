@@ -24,7 +24,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light  nav">
+        <nav class="navbar navbar-expand-lg navbar-light  nav ">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.png" width="50" height="50" alt="" loading="lazy">
             </a>
@@ -67,7 +67,7 @@
     <section>
         <div id="wrapper">
             <div id="featured">
-                <video poster="assets/poster.jpg" autoplay="false" muted="false" controls>
+                <video poster="assets/poster.jpg" autoplay="true" muted="true" loop="true">
                     <source src="assets/video/MindIT BBC Interview .mp4" type="video/mp4">
                 </video>
             </div>
@@ -91,7 +91,7 @@
                             up wit a free service for the users. <br> <br>
 
                             We have a free to access USSD/SHORTCODE <br>
-                            *713*66# that a user dials and answers 4 questions.
+                            *844*555# that a user dials and answers 4 questions.
                         </p>
                     </div>
                 </div>
@@ -244,7 +244,7 @@
             <h2 class="join-us">INTRESTED IN</h2>
             <h2 class="join-us">INTERNING/HELPING IN</h2>
             <h2 class="join-us">ANY OTHER CAPACITY?</h2>
-            <h5 class="join-us-link">Click here to send us a mail</h5>
+            <a href="mailto:minditgh@gmail.com"><h5 class="join-us-link">Click here to send us a mail</h5></a>
         </div>
 
     </section>
@@ -260,6 +260,10 @@
                     <hr>
                     <h4 class="impact-text">If our goal resonates with you, <br>
                         please makee a donation to cover some expenses. Thank you</h4>
+                </div>
+                <div class="row">
+                    <img class="donate-btn" src="assets/img/donate button.png" >
+
                 </div>
                 <!-- <input style="width: 10rem; height: 2rem;" type="button" style="background-image:url('assets/img/donate\ button.png')"/> -->
 
@@ -280,8 +284,10 @@
                     <input placeholder="Name">
                     <input placeholder="Email">
                     <input placeholder="Subject">
-                    <textarea placeholder="Message" rows="5" cols="5"> </textarea>
-                    <button>Send</button>
+                    <textarea placeholder="Message" rows="7" cols="5"> </textarea>
+                    <div class="text-right" style="width: 82%;">
+                        <button class="btn send-btn text-right">Send</button>
+                    </div>
                 </div>
                 <div class="col-md-5">
                     <div class=" contact-container" style="margin-left: 4rem;">
@@ -296,7 +302,8 @@
                     </div>
                     <div class=" contact-container" style="margin-left: 4rem;">
                         <h2>WEB & SOCIAL</h2>
-                        <h4>Mail: mindit@gmail.com</h4>
+                        <a href="mailto:minditgh@gmail.com"><h4>Mail: minditgh@gmail.com</h4></a>
+ 
                     </div>
                 </div>
     

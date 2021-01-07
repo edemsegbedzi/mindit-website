@@ -126,20 +126,28 @@ hr {
 }
 
 .team-member {
-    padding: 0.5rem;
+    padding: 0.1rem;
+    display: inline-block
 
 }
 
-.team-member h4 {
+.team-member h4{
     font-family: 'Lato';
     font-weight: 400;
+    font-size: medium;
+    color: black;
+
 }
+
 
 .team-member h5 {
     font-family: 'Lato';
     font-weight: 500;
     font-size: medium;
     color: gray;
+}
+.team-member img {
+    border-radius: 50%
 }
 
 .donate-btn {
